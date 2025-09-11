@@ -2,7 +2,7 @@ import React, { useState, useEffect, use } from 'react'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import { Spinner } from './Spinner'
-import useGif from '../../../formproject/src/hooks/useGif'
+import useGif from '../hooks/useGif'
 
 export const Tag = () => {
   const [tag,setTag] = useState('car');
